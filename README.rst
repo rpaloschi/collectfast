@@ -1,4 +1,4 @@
-Collectfast – A Faster Collectstatic
+Collectfast - A Faster Collectstatic
 ====================================
 
 |Downloads| |Build Status| |Coverage Status| |Join the chat at
@@ -32,7 +32,7 @@ to your ``INSTALLED_APPS``:
     STATICFILES_STORAGE = "storages.backends.s3boto.S3BotoStorage"
     AWS_PRELOAD_METADATA = True
     INSTALLED_APPS = (
-        # …
+        # ...
         'collectfast',
     )
 
